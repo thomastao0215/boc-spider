@@ -99,6 +99,6 @@ function fetchInfo() {
 
 
 schedule.scheduleJob(rule2, function(){
-
+    arrayData = []
     fetchInfo()
   });
